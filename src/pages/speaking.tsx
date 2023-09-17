@@ -1,23 +1,17 @@
 import Authenticated from '@/components/authenticated';
-import Options from '@/components/options';
+import Speaking from '@/components/speaking';
 import Sidebar from '@/components/sidebar';
 
-type Message = {
-    role: string;
-    content: string;
-};
-
-const Home = () => {
+const SpeakingPage = () => {
     return (
         <Authenticated>
             <div className="flex h-screen">
-                {/* <Sidebar links={[]} /> */}
                 <div className="flex-grow">
-                    <Options />
+                    <Speaking />
                 </div>
             </div>
         </Authenticated>
     );
 };
 
-export default Home;
+export default SpeakingPage;

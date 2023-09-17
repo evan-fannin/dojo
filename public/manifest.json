@@ -1,0 +1,10 @@
+{
+    "name": "Dojo",
+    "short_name": "Dojo",
+    "theme_color": "#22323f",
+    "background_color": "#cad5dd",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+  }
